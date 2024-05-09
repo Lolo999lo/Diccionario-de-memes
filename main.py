@@ -10,3 +10,5 @@ word = input("Escribe una palabra que no entiendas o no conoscas (Que sea en may
 
 if word in meme_dict.keys():
     print(meme_dict[word])
+else: 
+    print("En el momento no tenemos esa palabra, lo sentimos")
